@@ -1,19 +1,27 @@
 function setup()
 {
   //create a drawing service 700px wide, 500px tall
-  createCanvas(2000,100);
+  createCanvas(500,500);
 
 }
 
 function draw()
 {
   //create a background using RGB values
-  background(10,41,236)
+  background(9,255,0)
 
   // change the paint brush to a specific color according to RGB values
-  fill(3,255,3);
+  fill(49,128,137);
+
 
   // create a rectangle at x,y coordinates 10,10 with length x height at 100 x 50
-  rect(10,5,30,89);
+  rect(10,10,20,99);
+  rect(150,150,175,175);
+
+
+
+
+
+
 
 }
